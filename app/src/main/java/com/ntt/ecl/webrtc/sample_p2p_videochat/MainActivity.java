@@ -110,7 +110,6 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onDestroy() {
-		destroyPeer();
 		super.onDestroy();
 	}
 
